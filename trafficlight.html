@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var R="RED" ||"red"|| "ReD"||"Red" ||"RED"|| "rEd" ||"rED"|| "REd" ||"rEd";
+        var colour= prompt("Enter the Traffic Signal colour")
+        var people= prompt("Enter people Yes or No")
+        
+        if (people=="yes" && colour=="red") {
+            console.log( "vehicle stop");
+            console.log("pepole go");
+             }
+             else if (people=="no" && colour=="red"){
+                 console.log( "vehicle stop");
+             }
+            else if (people=="yes" && colour=="yellow") {
+            console.log( "vehicle get ready");
+            console.log("pepole move fast");
+             }
+             else if (people=="no"&&colour=="yellow") {
+                 console.log( "vehicle get ready");
+             } 
+            else if (people=="yes" && colour=="green") {
+            console.log( "vehicle go");
+            console.log("pepole don't move");
+             }
+             else if (people=="no" && colour=="green"){
+                 console.log( "vehicle go");
+             }
+             else{
+                alert("Enter red,yellow,green only")
+             }
+
+
+
+
+
+
+    </script>
+</body>
+</html>
